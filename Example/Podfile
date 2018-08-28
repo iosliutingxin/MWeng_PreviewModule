@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MWeng_PreviewModule_Example' do
+  pod 'MWeng_PreviewModule', :path => '../'
+
+  target 'MWeng_PreviewModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
