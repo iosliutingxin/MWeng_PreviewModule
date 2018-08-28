@@ -1,0 +1,6 @@
+framework module MWeng_PreviewModule {
+  umbrella header "MWeng_PreviewModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

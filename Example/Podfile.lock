@@ -1,0 +1,16 @@
+PODS:
+  - MWeng_PreviewModule (0.1.0)
+
+DEPENDENCIES:
+  - MWeng_PreviewModule (from `../`)
+
+EXTERNAL SOURCES:
+  MWeng_PreviewModule:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MWeng_PreviewModule: 93e95386920cb69eca9b3b0a848b4768f69b3262
+
+PODFILE CHECKSUM: 14cac54e2cd880e0e8698be66625c6d367abc940
+
+COCOAPODS: 1.4.0
