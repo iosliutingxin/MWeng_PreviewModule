@@ -8,16 +8,22 @@
 
 import UIKit
 import MWeng_PreviewModule
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        Test().test01()
+        let vc = PreviewListController()
+        //        self.present(vc, animated: false, completion: nil)
+        self.navigationController?.pushViewController(vc, animated: false)
+
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    
+        let vc = PreviewListController()
+//        self.present(vc, animated: false, completion: nil)
+        self.navigationController?.pushViewController(vc, animated: false)
     }
 
 }

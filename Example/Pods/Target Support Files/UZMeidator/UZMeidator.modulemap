@@ -1,0 +1,6 @@
+framework module UZMeidator {
+  umbrella header "UZMeidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

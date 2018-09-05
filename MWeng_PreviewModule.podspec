@@ -35,8 +35,19 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'MWeng_PreviewModule' => ['MWeng_PreviewModule/Assets/*.png']
   # }
-
+  s.swift_version = '4.0'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resources = 'MWeng_PreviewModule/Assets/*.png','MWeng_PreviewModule/Classes/**/*.{xib,storyboard}'
+
+  #对系统framework的依赖
+  s.framework = 'SystemConfiguration','CoreData'
+  #对系统.a的依赖，注意去掉lib前缀
+  s.libraries   = 'c++','stdc++.6.0.9'
+  #s.dependency  'UZMeidator'
+  s.dependency 'AFNetworking'
+  s.dependency 'UZMeidator'
+  
+  #pod update --no-repo-update
+
 end

@@ -1,22 +1,43 @@
 {
   "name": "MWeng_PreviewModule",
-  "version": "0.1.0",
-  "summary": "A short description of MWeng_PreviewModule.",
+  "version": "1.0.0",
+  "summary": "预览组件",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1778714848@qq.com/MWeng_PreviewModule",
+  "homepage": "https://github.com/iosliutingxin/MWeng_PreviewModule",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "1778714848@qq.com": "liutingxin@utourworld.com"
+    "iosliutingxin": "1778714848@qq.com"
   },
   "source": {
-    "git": "https://github.com/1778714848@qq.com/MWeng_PreviewModule.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/iosliutingxin/MWeng_PreviewModule.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MWeng_PreviewModule/Classes/**/*"
+  "source_files": "MWeng_PreviewModule/Classes/**/*",
+  "swift_version": "4.0",
+  "resources": [
+    "MWeng_PreviewModule/Assets/*.png",
+    "MWeng_PreviewModule/Classes/**/*.{xib,storyboard}"
+  ],
+  "frameworks": [
+    "SystemConfiguration",
+    "CoreData"
+  ],
+  "libraries": [
+    "c++",
+    "stdc++.6.0.9"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "UZMeidator": [
+
+    ]
+  }
 }

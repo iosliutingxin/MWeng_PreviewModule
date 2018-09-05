@@ -1,7 +1,12 @@
 use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/iosliutingxin/MWeng_spec.git'
+source 'http://git.uzai.com/IOS/Uzai-Specs.git'
 
 target 'MWeng_PreviewModule_Example' do
+    
   pod 'MWeng_PreviewModule', :path => '../'
+  #pod 'MWeng_NetworkModule', :git => 'https://github.com/iosliutingxin/MWeng_NetworkModule.git'
 
   target 'MWeng_PreviewModule_Tests' do
     inherit! :search_paths

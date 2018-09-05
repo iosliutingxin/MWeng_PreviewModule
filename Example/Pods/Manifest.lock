@@ -1,5 +1,23 @@
 PODS:
-  - MWeng_PreviewModule (0.1.0)
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - MWeng_PreviewModule (1.0.0):
+    - AFNetworking
+    - UZMeidator
+  - UZMeidator (1.0.2)
 
 DEPENDENCIES:
   - MWeng_PreviewModule (from `../`)
@@ -9,8 +27,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MWeng_PreviewModule: 93e95386920cb69eca9b3b0a848b4768f69b3262
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  MWeng_PreviewModule: f355f5b808e4c592ca7e2c9643d2c1e3a89a64ac
+  UZMeidator: 44369f03d6c8f5de80df785a91e7d02be22623b4
 
-PODFILE CHECKSUM: 14cac54e2cd880e0e8698be66625c6d367abc940
+PODFILE CHECKSUM: 74e2ad3e1a8988a1e6da0cafc831f9ef4e04239a
 
 COCOAPODS: 1.4.0
