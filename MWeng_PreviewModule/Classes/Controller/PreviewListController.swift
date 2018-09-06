@@ -37,7 +37,6 @@ public class PreviewListController: UIViewController {
         self.navigationController?.navigationBar.isHidden = true
         view.addSubview(tableView)
         getDate()
-        
         //注册通知用于预览其他APP分享的文档
         let notificationName = "previewNotification"
         NotificationCenter.default.addObserver(self, selector: #selector(notificationAction), name: NSNotification.Name(rawValue: notificationName), object: nil)
